@@ -27,3 +27,4 @@ function randomJoke() {
 }
 
 jokeBtn.addEventListener('click', randomJoke)
+window.addEventListener('load', randomJoke)
